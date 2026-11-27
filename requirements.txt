@@ -1,0 +1,7 @@
+langgraph>=1.0
+
+# 本地调试：提供 langgraph dev 命令
+langgraph-cli[inmem]>=0.2
+
+# Windows 上 langgraph dev 的彩色日志需要
+colorama; sys_platform == "win32"

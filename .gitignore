@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# LangGraph local runtime data
+.langgraph_api/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
